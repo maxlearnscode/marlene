@@ -15,7 +15,7 @@ body {
     width: 100vw;
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
-    cursor: none;  /* This will hide the mouse cursor */
+    cursor: crosshair;
 }
 
 h1, p {

@@ -39,3 +39,8 @@ button {
     background-color: black;
     color: white;
 }
+
+/* Disable scrolling when dark mode is enabled */
+.no-scroll {
+    overflow: hidden;
+}

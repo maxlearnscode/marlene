@@ -39,6 +39,7 @@ function a(t, e) {
 
 function l() {
     document.body.classList.remove("real-dark-mode-enabled");
+    document.body.classList.remove("no-scroll");
     const spotlight = document.querySelector(".real-dark-mode-spotlight");
     if (spotlight) document.body.removeChild(spotlight);
     document.removeEventListener("mousemove", a);
@@ -71,6 +72,7 @@ function u(t) {
         if (e) {
             document.body.appendChild(e);
             document.body.classList.add("real-dark-mode-enabled");
+            document.body.classList.add("no-scroll");
             document.addEventListener("mousemove", i => a(i, t));
             document.addEventListener("touchmove", i => {
                 a(i.touches[0], t);
